@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "mydiary",
+    "password": "mydiary1234",
+    "database": "mydiary",
+    "host": "mydiary.cniaje7kiofx.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": "false"
+  },
+  "test": {
+    "username": "mydiary",
+    "password": "mydiary1234",
+    "database": "mydiary",
+    "host": "mydiary.cniaje7kiofx.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": "false"
+  },
+  "production": {
+    "username": "mydiary",
+    "password": "mydiary1234",
+    "database": "mydiary",
+    "host": "mydiary.cniaje7kiofx.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": "false"
+  }
+}

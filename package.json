@@ -1,0 +1,50 @@
+{
+  "name": "mydiary",
+  "version": "0.0.1",
+  "description": "express server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "codestates",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.346.0",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.4.0",
+    "express-session": "^1.15.6",
+    "gm": "^1.23.1",
+    "http-proxy-middleware": "^0.19.0",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-imager": "^3.3.2",
+    "multer-s3": "^2.7.0",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-pool": "^2.8.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-kakao": "0.0.5",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.41.0",
+    "sharp": "^0.21.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.5"
+  }
+}
